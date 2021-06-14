@@ -9,7 +9,7 @@ Download [GNU Arm Embedded Toolchain](https://launchpad.net/gcc-arm-embedded/+do
 ### step2. Extract CMSIS
 The Common Microcontroller Software Interface Standard (CMSIS) is a vendor-independent abstraction layer for microcontrollers that are based on Arm Cortex processors. 
 
-Download [HDSC pack](https://developer.arm.com/embedded/cmsis/cmsis-packs/devices), unzip to take [offcial pack files](https://github.com/hdscmcu/pack).
+Download [HDSC pack](https://developer.arm.com/embedded/cmsis/cmsis-packs/devices), unzip&pick the [offcial pack files](https://github.com/hdscmcu/pack).
 
 ```bash
 unzip HDSC.HC32F005.1.0.1.pack
@@ -26,5 +26,9 @@ dos2unix <project>/bsp/inc/hc32f005x6.h
 
 
 ### Reference
+
 * ["Bare Metal" STM32 Programming](https://vivonomicon.com/2018/04/02/bare-metal-stm32-programming-part-1-hello-arm/)
+
 * [STM32_quickstart](https://github.com/WRansohoff/STM32_quickstart)
+
+* [Memory Layout of C Programs](https://www.geeksforgeeks.org/memory-layout-of-c-program/)
